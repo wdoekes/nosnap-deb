@@ -5,4 +5,4 @@
 	dh $@
 
 override_dh_auto_install:
-	install -D nosnap.pref debian/nosnap/etc/apt/preferences.d/nosnap.pref
+	install -m 0644 -D nosnap.pref debian/nosnap/etc/apt/preferences.d/nosnap.pref
