@@ -1,0 +1,12 @@
+Source: nosnap
+Priority: optional
+Maintainer: Walter Doekes <wjdoekes+linuxmint@osso.nl>
+Standards-Version: 3.9.6
+Section: admin
+
+Package: nosnap
+Architecture: all
+Provides: ubuntu-system-adjustments (= 2022.12.31)
+Replaces: ubuntu-system-adjustments
+Description: Package to resolve Linux Mint firefox dependency
+ Adds nosnap.pref to disallow automatic installation of snapd.

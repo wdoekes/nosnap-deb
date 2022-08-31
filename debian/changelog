@@ -1,0 +1,6 @@
+nosnap (0.1) stable; urgency=medium
+
+  * Package to resolve Linux Mint firefox dependency.
+  * Adds nosnap.pref to disallow automatic installation of snapd.
+
+ -- Walter Doekes <wjdoekes+linuxmint@osso.nl>  Wed, 31 Aug 2022 20:36:35 +0200
